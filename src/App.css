@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", system-ui;
+  background-color: hsl(0, 0%, 94%);
+}
+
+main {
+  width: 50%;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px 10px 200px 10px;
+  margin: 50px auto;
+  padding: 50px;
+}
+
+#input_section {
+  display: flex;
+}
+
+ p {
+ margin-bottom: 10px;
+}
+
+input {
+  font-size: 2rem;
+  padding: 10px;
+  border-radius: 5px;
+  width: 70%;
+  color:  hsl(0, 0%, 8%);
+  font-weight: 600;
+  border-color: hsl(0, 1%, 44%);
+ }
+
+ .numbers {
+  color: hsl(259, 100%, 65%);
+ }
+
+ #arrow_section {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+ }
+
+ #arrow_picture {
+  align-items: center;
+  background-color:hsl(259, 100%, 65%);
+  border-radius: 50%;
+  padding: 13px;
+  float: right;
+ }
+
+ #line {
+ border-bottom: 3px solid black;
+ }
+
+ #hr {
+  border-bottom: 1px solid;
+  width: 100%;
+ }
+
+ h2 {
+  color: hsl(0, 0%, 8%);
+  font-size: 6rem;
+  font-style: italic;
+ }
+
+ #display {
+  margin: 50px 0px;
+ }
+
+ em {
+  margin-top: 10px;
+  display: block;
+  color: red;
+  font-size: 0.7rem;
+ }
+
+
+ @media screen and (max-width: 600px) {
+
+  body {
+    padding: 10px;
+  }
+
+  main {
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px 10px 50px 10px;
+  }
+
+  p {
+    margin-bottom: 5px;
+   }
+   
+
+  input {
+    font-size: 1rem;
+    width: 50%;
+   }
+
+  h2 {
+    font-size: 3rem;
+   }
+
+   #arrow_section {
+    position: relative;
+   }
+
+   #arrow_picture {
+    position: absolute;
+    width: 30px;
+    margin: 0px auto;
+    left: 40%;
+   }
+}
