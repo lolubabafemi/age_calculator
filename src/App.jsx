@@ -129,7 +129,7 @@ function App() {
       <img alt="" id="arrow_picture"/>
     </div>
 
-    <button onClick={()=>ageCalc()}>Click click</button>
+    <button onClick={()=>ageCalc()}>Check Age</button>
 
     <section id="display">
       <h2><span className="numbers" id="number_of_years">--</span> years</h2>

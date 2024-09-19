@@ -81,6 +81,12 @@ input {
   font-size: 0.7rem;
  }
 
+ button {
+  background-color: hsl(259, 100%, 65%);
+  color: white;
+  margin: 10px auto;
+ }
+
 
  @media screen and (max-width: 600px) {
 
