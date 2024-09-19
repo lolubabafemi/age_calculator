@@ -85,6 +85,9 @@ input {
   background-color: hsl(259, 100%, 65%);
   color: white;
   margin: 10px auto;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
  }
 
 
