@@ -105,6 +105,11 @@ input {
     border-radius: 10px 10px 50px 10px;
   }
 
+  button {
+    margin: 0px auto;
+    font-size: 0.8rem;
+  }
+
   p {
     margin-bottom: 5px;
    }
