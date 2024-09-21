@@ -126,7 +126,6 @@ function App() {
 
     <div id="arrow_section">
       <div id="hr"></div>
-      <img alt="" id="arrow_picture"/>
     </div>
 
     <button onClick={()=>ageCalc()}>Check Age</button>
