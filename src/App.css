@@ -106,8 +106,9 @@ input {
   }
 
   button {
-    margin: 0px auto;
+    margin: 10px auto;
     font-size: 0.8rem;
+    padding: 10px;
   }
 
   p {
